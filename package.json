@@ -7,9 +7,7 @@
         "npm":">=1.3.14"
     },
     "devDependencies":{
-        "mocha":"latest",
-        "sinon":"latest",
-        "should":"latest"
+        "mocha":"latest"
     },
     "main":"./lib/index.js",
     "scripts":{
