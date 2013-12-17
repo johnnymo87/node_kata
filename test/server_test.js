@@ -10,7 +10,6 @@ describe('/', function () {
 
     it('should return 200', function (done) {
         http.get('http://localhost:8888', function (res) {
-            debugger;
             assert.equal(200, res.statusCode);
             done();
         });
